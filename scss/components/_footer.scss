@@ -1,0 +1,119 @@
+.footer__top-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 15px 0;
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0 0 0;
+
+  }
+}
+
+.footer__top-item {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer__top-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: $charcoal-color;
+
+  &:hover {
+    color: rgba($charcoal-color, .5)
+  }
+
+}
+
+.footer__top-img {
+  @media only screen and (max-width: 767px) {
+    margin-bottom: 20px;
+    width: 160px;
+    height: 48px;
+  }
+}
+
+.footer__top-img-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__top-socials {
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 992px) {
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+}
+
+.footer__top-links {
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+}
+
+.footer__linkedin,
+.footer__twitter {
+  margin-right: 20px;
+}
+
+.footer__sitemap,
+.footer__cookies {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: $charcoal-color;
+}
+
+.footer__privacy {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: $charcoal-color;
+}
+
+.footer__bot {
+  display: flex;
+  justify-content: center;
+  background-color: $brick-color;
+}
+
+.footer__bot-paragraph {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 15px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  color: $white-color;
+  text-align: center;
+}
+
+.footer__content-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 57%;
+
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: unset;
+  }
+
+  @media only screen and (max-width: 767px) {
+    align-items: center;
+    width: 100%;
+  }
+}

@@ -1,0 +1,122 @@
+.core {
+  width: 100%;
+  padding: 70px 0;
+
+  @media only screen and (max-width: 992px) {
+    padding: 40px 0;
+  }
+}
+
+.core__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 992px) {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.core__bar {
+  margin-bottom: 30px;
+
+  @media only screen and (max-width: 992px) {
+    margin-bottom: 20px;
+  }
+}
+
+.core__title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 58px;
+  
+  @media only screen and (max-width: 992px) {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+.core__acordion {
+  width: 100%;
+}
+
+.accordion {
+  border-bottom: 2px solid $silver1-color;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+
+  &::after {
+    content: "";
+    background-image: url("/assets/plus-acord.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 26px;
+    height: 26px;
+    color: $teal-color;
+  }
+  
+  &:first-child {
+    border-top: 2px solid $silver1-color;
+  }
+
+  @media only screen and (max-width: 992px) {
+    padding: 10px 20px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 10px;
+  }
+}
+
+.core__panel-paragraph {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160.2%;
+  letter-spacing: 0.02em;
+  color: $charcoal-color;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.active {
+  &::after {
+    content: "";
+    background-image: url("/assets/minus-acord.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.panel {
+  padding: 20px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f0f0;
+}

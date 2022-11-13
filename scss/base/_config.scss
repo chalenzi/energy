@@ -1,0 +1,32 @@
+$blue-color: #59a6c0;
+$brick-color: #e66559;
+$teal-color: #3ea397;
+$silver1-color: #cfcdcc;
+$charcoal-color: #575756;
+$white-color: #ffffff;
+$red-color: #e73137;
+$black-color: #000000;
+$silver2-color: #f1f0f0;
+$grey-color: #d9d9d9;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $white-color;
+  font-family: "Quicksand", sans-serif;
+}
+
+.wrap {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}

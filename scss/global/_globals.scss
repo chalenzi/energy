@@ -1,0 +1,22 @@
+.text__bar {
+    width: 110px;
+    height: 10px;
+    border-radius: 30px;
+    &--blue {
+        background-color: $blue-color;
+    }
+    &--silver {
+        background-color: $charcoal-color;
+    }
+    &--white {
+        background-color: $white-color;
+    }
+    &--silver1 {
+        background-color: $silver1-color;
+    }
+}
+
+.stop-scroll {
+    overflow: hidden;
+}
+
