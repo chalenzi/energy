@@ -1,8 +1,8 @@
 Made by myself 
 
 HTML
-CSS
-JS
+SCSS(SASS)
+Vanilla JS
 
 One Page 
 Responsive 
